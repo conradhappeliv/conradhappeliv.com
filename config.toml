@@ -1,0 +1,87 @@
+baseURL = "https://www.conradhappeliv.com"
+title = "Conrad H. Appel, IV"
+staticDir = ["static"]
+theme = "minimo"
+googleAnalytics = "UA-75316842-1"
+Paginate = 10
+preserveTaxonomyNames = true
+enableRobotsTXT = true # generate robots.txt
+pygmentsCodefences = true
+enableEmoji = false
+defaultContentLanguage = "en"
+
+[params.info]
+description = "Musician/Engineer Hybrid"
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = ""
+customCSS = ["/css/custom.css"]
+customJS = []
+gopher = "/img/gameovergopher.png" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = "Conrad Appel"
+startYear = "2016"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"]
+hideSocialMenu = true
+showReadingTime = true
+
+[params.sidebar]
+enable = true
+sticky = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about", "social_menu"]
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+facebook = "conradhappeliv"
+github = "conradhappeliv"
+linkedin = "conradhappeliv"
+
+[params.social.config]
+platforms = ["facebook", "github", "linkedin"]
+
+[taxonomies]
+# author = ""
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/pdf/resume.pdf"
+    name = "Resume"
+    weight = 3
+
+[[menu.main]]
+    url = "/about"
+    name = "About"
+    weight = 4
+
+[blackfriday]
+hrefTargetBlank = true

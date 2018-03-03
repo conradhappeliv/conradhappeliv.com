@@ -1,0 +1,23 @@
+.widget-about .site-title {
+    font-size: 1.5em;
+}
+
+.sep-after::after {
+    border-bottom-color: blue !important;
+    margin-top: 1.4em !important;
+    margin-bottom: 1.4em !important;
+}
+
+.sep-before::before {
+    border-bottom-color: blue !important;
+    margin-top: 1.4em !important;
+    margin-bottom: 1.4em !important;
+}
+
+.entry-content a:focus, .entry-content a:hover {
+    border-bottom-color: blue;
+}
+
+.entry-footer {
+    display: none;
+}

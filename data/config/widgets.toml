@@ -1,0 +1,7 @@
+[about]
+logo = "/img/me.jpg"
+
+[recent_posts]
+title = ""
+length = 3
+excludeTypes = ["page"]
