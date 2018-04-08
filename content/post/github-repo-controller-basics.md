@@ -15,7 +15,7 @@ I've now begun work on the nuts and bolts of the program - specifically setting 
 Github Repository
 -----------------
 
-The code repository for my EL project is hosted on Github: https://github.com/conradhappeliv/joysynth
+The code repository for my EL project is hosted on Github: https://github.com/conradhappeliv/joysynth/
 
 Controller API
 --------------

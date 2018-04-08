@@ -14,8 +14,8 @@ Check out my compiled final product for Engaged Learning here: https://conradhap
 
 You can also check out the individual products at these links:
 
-* https://conradhappeliv.com/joysynth
-* https://conradhappeliv.com/drawsyn
-* https://conradhappeliv.com/voicesynth
+* https://conradhappeliv.com/joysynth/
+* https://conradhappeliv.com/drawsyn/
+* https://conradhappeliv.com/voicesynth/
 
 Or you can see all of my blog posts about Engaged Learning at this link: https://conradhappeliv.com/tag/engaged-learning/

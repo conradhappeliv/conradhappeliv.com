@@ -52,7 +52,7 @@ Quick shout-out to all of the awesome new APIs introduced into browsers recently
 
 
 [hackathon]: https://en.wikipedia.org/wiki/Hackathon "Hackathon"
-[sixtune]: https://sixtune.conradhappeliv.com "Sixtune"
+[sixtune]: /sixtune/ "Sixtune"
 [sixtunecode]: https://github.com/conradhappeliv/sixtune "Sixtune's Source Code"
 [webaudioapi]: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API "Web Audio API"
 [hackdfw]: http://hackdfw.com/ "HackDFW"

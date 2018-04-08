@@ -12,7 +12,7 @@ title = "DrawSyn"
 
 DrawSyn is an experimental music-creation machine written for modern web browsers with three main components: a sequencer, a "drawable" waveform, and various slider controls for modifying the sound.
 
-[![DrawSyn Header](/img/drawsyn-1.png)](https://conradhappeliv.com/drawsyn/)
+[![DrawSyn Header](/img/drawsyn-1.png)](/drawsyn/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YdHWEAewGHQ" frameborder="0" allowfullscreen></iframe>
 

@@ -8,7 +8,47 @@ handlers:
   static_files: public/index.html
   upload: public/index.html
 
+- url: /joysynth/
+  secure: always
+  static_files: subsites/webjoysynth/index.html
+  upload: subsites/webjoysynth/index.html
+
+- url: /joysynth/(.*)
+  secure: always
+  static_files: subsites/webjoysynth/\1
+  upload: subsites/webjoysynth/(.*)
+
+- url: /drawsyn/
+  secure: always
+  static_files: subsites/drawsyn/index.html
+  upload: subsites/drawsyn/index.html
+
+- url: /drawsyn/(.*)
+  secure: always
+  static_files: subsites/drawsyn/\1
+  upload: subsites/drawsyn/(.*)
+
+- url: /voicesynth/
+  secure: always
+  static_files: subsites/voicesynth/index.html
+  upload: subsites/voicesynth/index.html
+
+- url: /voicesynth/(.*)
+  secure: always
+  static_files: subsites/voicesynth/\1
+  upload: subsites/voicesynth/(.*)
+
+- url: /sixtune/
+  secure: always
+  static_files: subsites/sixtune/index.html
+  upload: subsites/sixtune/index.html
+
+- url: /sixtune/(.*)
+  secure: always
+  static_files: subsites/sixtune/\1
+  upload: subsites/sixtune/(.*)
+
 - url: /(.*)
   secure: always
   static_files: public/\1
-upload: public/(.*)
+  upload: public/(.*)

@@ -1,3 +1,15 @@
 [submodule "themes/minimo"]
 	path = themes/minimo
 	url = https://github.com/MunifTanjim/minimo
+[submodule "subsites/drawsyn"]
+	path = subsites/drawsyn
+	url = git@github.com:conradhappeliv/drawsyn.git
+[submodule "subsites/voicesynth"]
+	path = subsites/voicesynth
+	url = git@github.com:conradhappeliv/voicesynth.git
+[submodule "subsites/webjoysynth"]
+	path = subsites/webjoysynth
+	url = git@github.com:conradhappeliv/webjoysynth.git
+[submodule "subsites/sixtune"]
+	path = subsites/sixtune
+	url = git@github.com:conradhappeliv/sixtune.git
