@@ -59,8 +59,8 @@ window.onload = () => {
 
     // bind arrow keys to music carousel
     document.onkeydown = (e) => {
-        if(e.keyCode == 37) nudgeMusic(-1);
-        if(e.keyCode == 39) nudgeMusic(1);
+        if(e.keyCode == 37) nudgeMusic(1);
+        if(e.keyCode == 39) nudgeMusic(-1);
     }
 
     // bind scroll in music carousel to nudges
