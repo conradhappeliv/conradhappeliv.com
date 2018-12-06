@@ -1,6 +1,3 @@
-[submodule "themes/minimo"]
-	path = themes/minimo
-	url = https://github.com/MunifTanjim/minimo
 [submodule "subsites/drawsyn"]
 	path = subsites/drawsyn
 	url = git@github.com:conradhappeliv/drawsyn.git

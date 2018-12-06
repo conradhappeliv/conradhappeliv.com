@@ -1,7 +1,7 @@
 baseURL = "https://www.conradhappeliv.com/"
 title = "Conrad H. Appel, IV"
 staticDir = ["static"]
-theme = "minimo"
+theme = "chaiv"
 googleAnalytics = "UA-75316842-1"
 Paginate = 10
 preserveTaxonomyNames = true

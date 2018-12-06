@@ -1,0 +1,8 @@
+name = "CHAIV"
+description = "Hugo theme for conradhappeliv.com"
+homepage = "conradhappeliv.com"
+min_version = 0.52
+
+[author]
+  name = "Conrad H. Appel, IV"
+  homepage = "https://conradhappeliv.com"

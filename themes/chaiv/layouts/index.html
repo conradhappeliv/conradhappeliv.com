@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<h1>Hey, I'm <u>Conrad</u>.</h1>
+
+<p>I write software for a living and dream about dropping everything and becoming a full-time musician.
+    I relish spicy food, atypical modulation, & lists.</p>
+
+<h2>What I'm doing right now:</h2>
+<ul>
+    <li>Working at Google on the YouTube Gaming team</li>
+    <li>Teaching myself Russian language at the <i>slowest</i> pace</li>
+    <li>Settling into SF after living in New Orleans for 90% of my life</li>
+</ul>
+
+<h2>What I'm Listening to:</h2>
+<div id="music-container-container">
+    <div id="music-container">
+        <div id="music-overlay"></div>
+        <div id="music"></div>
+    </div>
+    <icon class="icon arrow previous" data-feather="arrow-left" onclick="nudgeMusic(-1)"></icon>
+    <icon class="icon arrow next" data-feather="arrow-right" onclick="nudgeMusic(1)"></icon>
+</div>
+
+<h2>How You Can Reach Me:</h2>
+<a href="https://facebook.com/conradhappeliv"><icon class="icon" data-feather="facebook"></i></a>
+<a href="https://twitter.com/conradhappeliv"><icon class="icon" data-feather="twitter"></i></a>
+<a href="https://linkedin.com/in/conradhappeliv"><icon class="icon" data-feather="linkedin"></i></a>
+<a href="https://github.com/conradhappeliv"><icon class="icon" data-feather="github"></i></a>
+
+
+{{ end }}
