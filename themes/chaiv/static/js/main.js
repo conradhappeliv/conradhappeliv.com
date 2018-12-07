@@ -31,6 +31,8 @@ function nudgeMusic(dir) { // 1 for right, -1 for left
     }
     pos += dir;
 
+    updateArrows();
+
     let el = document.getElementById("music");
     let ml = el.style.marginLeft;
     let amtPx = dir * 200;
@@ -49,6 +51,17 @@ function nudgeMusic(dir) { // 1 for right, -1 for left
     return true
 }
 
+function updateArrows() {
+    let leftEl = document.getElementById("previous");
+    let rightEl = document.getElementById("next");
+
+    if (pos == 0) leftEl.style.opacity = 0;
+    else leftEl.style.opacity = 1;
+
+    if (pos == (albums.length-1) * -1) rightEl.style.opacity = 0;
+    else rightEl.style.opacity = 1;
+}
+
 window.onload = () => {
     feather.replace();
 
@@ -56,6 +69,8 @@ window.onload = () => {
         let album = albums[i];
         appendAlbum(album);
     }
+
+    updateArrows();
 
     // bind arrow keys to music carousel
     document.onkeydown = (e) => {
