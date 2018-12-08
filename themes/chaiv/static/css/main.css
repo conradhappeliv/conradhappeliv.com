@@ -31,23 +31,24 @@ h2 {
     cursor: pointer;
 }
 
-.previous {
+#previous {
     left: 10px;
 }
 
-.next {
+#next {
     right: -10px;
 }
 
 #music-container {
     position: absolute;
     overflow: hidden;
-    margin: 0 30px;
+    width: 100%;
 }
 
 #music-container-container {
     position: relative;
     height: 200px;
+    margin: 0 30px;
 }
 
 #music {
