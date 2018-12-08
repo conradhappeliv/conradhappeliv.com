@@ -1,6 +1,6 @@
 let pos = 0;
 let albums = [
-    ["Djesse", "Jacob Collier", "djesse.jpg", "https://open.spotify.com/track/6CCNyJmWaIwg5pi1ueYjIe?si=YrR4dLV3TyanWTv8jC2QYA"],
+    ["Djesse", "Jacob Collier", "djesse.jpg", "https://open.spotify.com/album/47bMDS4CMLbqcIVjEMWUjK?si=Pm49KxDxT7y9D3kg1DD9eA"],
     ["re:member", "Ólafur Arnalds", "remember.jpg", "https://open.spotify.com/album/6JpQGIi2he6iskzR4aLwPG?si=pPyTsRZGRcG2-BpKzECX-Q"],
     ["In the Heights", "Musical", "intheheights.jpg", "https://open.spotify.com/album/3VPHalWocJfe7VfbEW60zg?si=vtDvoGIGTNqhquQi3Gg0CA"],
     ["Culcha Vulcha", "Snarky Puppy", "culchavulcha.jpg", "https://open.spotify.com/album/2y5N5FEb9giR3d1BP9wX9n?si=Est5Ep2UQL-bjgan94uQHw"],
