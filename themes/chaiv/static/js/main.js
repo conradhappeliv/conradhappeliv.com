@@ -1,5 +1,7 @@
 let pos = 0;
 let albums = [
+    ["A Moon Shaped Pool", "Radiohead", "amoonshapedpool.jpg", "https://open.spotify.com/album/6vuykQgDLUCiZ7YggIpLM9?si=isCaruioSyiXs7chDyDZ_w"],
+    ["Good Future", "EMEFE", "goodfuture.jpg", "https://open.spotify.com/album/55RsHwEbtpdYtFqwdNdKki?si=LCAo-1ZLQnW0B6j26LKeSg"],
     ["Djesse", "Jacob Collier", "djesse.jpg", "https://open.spotify.com/album/47bMDS4CMLbqcIVjEMWUjK?si=Pm49KxDxT7y9D3kg1DD9eA"],
     ["re:member", "Ólafur Arnalds", "remember.jpg", "https://open.spotify.com/album/6JpQGIi2he6iskzR4aLwPG?si=pPyTsRZGRcG2-BpKzECX-Q"],
     ["In the Heights", "Musical", "intheheights.jpg", "https://open.spotify.com/album/3VPHalWocJfe7VfbEW60zg?si=vtDvoGIGTNqhquQi3Gg0CA"],
