@@ -12,6 +12,11 @@
     <li>Settling into SF after living in New Orleans for 90% of my life</li>
 </ul>
 
+<h2>My sounds:</h2>
+<div id="sounds-container">
+    <soundwave v-for="sound in sounds" v-bind:sound="sound" v-bind:key="sound[0]"></sound>
+</div>
+
 <h2>What I'm listening to:</h2>
 <div id="music-container-container">
     <div id="music-container">
