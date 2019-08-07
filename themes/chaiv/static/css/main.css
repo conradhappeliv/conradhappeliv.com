@@ -31,6 +31,33 @@ h2 {
     cursor: pointer;
 }
 
+.sounds-title-container {
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sounds-title-container p {
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.sounds-subtitle {
+    font-size: 14px;
+}
+
+.sound {
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.visible {
+    opacity: 1 !important;
+}
+
 #previous {
     left: 10px;
 }

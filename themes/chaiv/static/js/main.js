@@ -70,24 +70,6 @@ function updateArrows() {
 window.onload = () => {
     feather.replace();
 
-    for (let i in albums) {
-        let album = albums[i];
-        appendAlbum(album);
-    }
-
-    updateArrows();
-
-    // bind arrow keys to music carousel
-    document.onkeydown = (e) => {
-        if(e.keyCode == 37) nudgeMusic(1);
-        if(e.keyCode == 39) nudgeMusic(-1);
-    }
-
-    // bind scroll in music carousel to nudges
-    document.getElementById("music").onwheel = (e) => {
-        e.preventDefault();
-
-        if (e.deltaX > 0 || e.deltaY < 0) wheeled = nudgeMusic(1);
-        else if (e.deltaX < 0 || e.deltaY > 0) wheeled = nudgeMusic(-1);
-    }
+    initSounds();
+    setupMusic();
 }
