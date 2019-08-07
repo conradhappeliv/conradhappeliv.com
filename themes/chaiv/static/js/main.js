@@ -8,6 +8,8 @@ let albums = [
     ["In the Heights", "Musical", "intheheights.jpg", "https://open.spotify.com/album/3VPHalWocJfe7VfbEW60zg?si=vtDvoGIGTNqhquQi3Gg0CA"],
     ["Culcha Vulcha", "Snarky Puppy", "culchavulcha.jpg", "https://open.spotify.com/album/2y5N5FEb9giR3d1BP9wX9n?si=Est5Ep2UQL-bjgan94uQHw"],
     ["Down to Earth", "Flight Facilities", "downtoearth.jpg", "https://open.spotify.com/album/3ymNidn5GJ9cVhGo2Symqk?si=YkW6hDyORPaSxIO8DXhP3w"]
+    ["Songs in the Key of Life", "Stevie Wonder", "songsinthekeyoflife.jpg", "https://open.spotify.com/album/6YUCc2RiXcEKS9ibuZxjt0?si=Udxly3YLQ4-54zrRvJjiew"],
+    ["Simple Things", "Zero 7", "simplethings.jpg", "https://open.spotify.com/album/4vQcWE7Ce6ORsatrqXkBtt?si=NWQ3DKvdQY-T45LUBiqlWw"]
 ]
 
 function appendAlbum(album) {
